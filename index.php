@@ -78,7 +78,7 @@ require_once("auth.php");
             <label for="pass">Password</label>
           </div>
           <div class="col-75">
-            <input type="text" id="pass"value="<?php echo $_SESSION['pass'] ?>" readonly>
+            <input type="text" id="pass" value="<?php echo $_SESSION['pass'] ?>" readonly>
           </div>
         </div>
         <div class="row">
