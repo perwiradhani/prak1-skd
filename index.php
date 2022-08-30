@@ -92,8 +92,6 @@ require_once("auth.php");
         </form>
       </div>
 
-      
-
 </body>
 </html>
 
