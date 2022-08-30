@@ -67,26 +67,26 @@ require_once("auth.php");
         <form action="" method="">
         <div class="row">
           <div class="col-25">
-            <label for="fname">Username</label>
+            <label for="user">Username</label>
           </div>
           <div class="col-75">
-            <input type="text" id="fname" name="firstname" value="<?php echo $_SESSION["user"]["username"] ?>" readonly>
+            <input type="text" id="user" value="<?php echo $_SESSION["user"]["username"] ?>" readonly>
           </div>
         </div>
         <div class="row">
           <div class="col-25">
-            <label for="fname">Password</label>
+            <label for="pass">Password</label>
           </div>
           <div class="col-75">
-            <input type="text" id="fname" name="firstname" value="<?php echo $_SESSION['pass'] ?>" readonly>
+            <input type="text" id="pass"value="<?php echo $_SESSION['pass'] ?>" readonly>
           </div>
         </div>
         <div class="row">
           <div class="col-25">
-            <label for="lname">Encrpyted Password</label>
+            <label for="encrypt">Encrypted Password</label>
           </div>
           <div class="col-75">
-            <input type="text" id="lname" name="lastname" value="<?php echo  $_SESSION["user"]["password"] ?>" readonly>
+            <input type="text" id="encrypt" value="<?php echo  $_SESSION["user"]["password"] ?>" readonly>
           </div>
         </div>
         </form>
